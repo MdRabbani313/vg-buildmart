@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useApp } from '../../context/AppContext';
 import { Product, Order, Quotation, BulkPriceSlab } from '../../types';
+import { SupplierDashboard } from './SupplierDashboard';
 import { 
   Factory, 
   Package, 
@@ -213,106 +214,17 @@ export const SupplierPortalView: React.FC = () => {
         </button>
       </div>
 
-      {/* Tab 1: Dashboard Overview */}
+      {/* Tab 1: Supplier Real-Time Analytics & Fulfillment Dashboard */}
       {activeTab === 'dashboard' && (
-        <div className="space-y-6">
-          {/* Key Metrics */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
-              <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-                <span>Total Delivered Value</span>
-                <DollarSign className="w-4 h-4 text-emerald-600" />
-              </div>
-              <p className="text-2xl font-black text-slate-900 mt-2">
-                ₹{totalRevenue.toLocaleString('en-IN')}
-              </p>
-              <span className="text-[11px] text-emerald-700 font-semibold mt-1 block">
-                Platform Commission: {currentSupplier.commissionRate}%
-              </span>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
-              <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-                <span>Active Shipments</span>
-                <Truck className="w-4 h-4 text-blue-600" />
-              </div>
-              <p className="text-2xl font-black text-blue-600 mt-2">
-                {activeOrdersCount}
-              </p>
-              <span className="text-[11px] text-slate-500 mt-1 block">
-                Across Mumbai & Pune corridors
-              </span>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
-              <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-                <span>Pending RFQ Quotes</span>
-                <Clock className="w-4 h-4 text-amber-500" />
-              </div>
-              <p className="text-2xl font-black text-amber-600 mt-2">
-                {pendingQuotesCount}
-              </p>
-              <span className="text-[11px] text-slate-500 mt-1 block">
-                Awaiting commercial review
-              </span>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
-              <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-                <span>Quality & Delivery Score</span>
-                <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-              </div>
-              <p className="text-2xl font-black text-slate-900 mt-2">
-                {currentSupplier.rating} / 5.0
-              </p>
-              <span className="text-[11px] text-slate-500 mt-1 block">
-                Based on verified site weighbridge receipts
-              </span>
-            </div>
-          </div>
-
-          {/* Quick Orders Pipeline */}
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm">
-            <h3 className="text-sm font-extrabold text-slate-900 mb-4 flex items-center justify-between">
-              <span>Orders Requiring Supplier Action</span>
-              <button
-                onClick={() => setActiveTab('orders')}
-                className="text-blue-600 hover:text-blue-700 text-xs font-bold cursor-pointer"
-              >
-                View All Orders &rarr;
-              </button>
-            </h3>
-
-            {supplierOrders.length === 0 ? (
-              <p className="text-xs text-slate-500 text-center py-6">No orders assigned to this plant yet.</p>
-            ) : (
-              <div className="divide-y divide-slate-100">
-                {supplierOrders.slice(0, 3).map((ord) => (
-                  <div key={ord.id} className="py-3 flex flex-wrap items-center justify-between gap-3 text-xs">
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="font-bold text-slate-900">{ord.orderNumber}</span>
-                        <span className="text-slate-500">• {ord.customerCompany}</span>
-                      </div>
-                      <p className="text-slate-600 mt-0.5">
-                        {ord.items.map(i => `${i.quantity} ${i.unit} ${i.productName}`).join(', ')}
-                      </p>
-                    </div>
-
-                    <div className="flex items-center gap-3">
-                      <span className="font-extrabold text-slate-900">
-                        ₹{ord.grandTotal.toLocaleString('en-IN')}
-                      </span>
-                      <span className="bg-blue-50 text-blue-700 font-bold px-2.5 py-1 rounded-full uppercase text-[10px]">
-                        {ord.status.replace('_', ' ')}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
+        <SupplierDashboard
+          supplier={currentSupplier}
+          orders={orders}
+          products={products}
+          quotations={quotations}
+          onNavigateToOrders={() => setActiveTab('orders')}
+          onNavigateToQuotes={() => setActiveTab('quotes')}
+          onUpdateOrderStatus={updateOrderStatus}
+        />
       )}
 
       {/* Tab 2: Inventory & Catalog Management */}
