@@ -1,0 +1,6 @@
+{
+  "name": "VG Buildmart - Construction Material Marketplace",
+  "description": "Multi-vendor B2B/B2C construction material marketplace for cement, TMT steel, stone aggregate with supplier portal, logistics, CRM and live order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

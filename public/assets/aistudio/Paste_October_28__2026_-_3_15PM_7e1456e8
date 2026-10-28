@@ -1,0 +1,785 @@
+PROJECT PROPOSAL: VG
+Buildmart – Construction
+Material Marketplace Platform
+Project Type: Multi-Vendor Construction Material Marketplace
+Prepared By: Gulab Rabbani
+Prepared For: VG Buildmart
+Version: 1.0
+Date: 28 October 2026
+Proposed Budget: To be finalized based on approved scope
+Estimated Timeline: 14–18 weeks, subject to scope confirmation and timely
+approvalsPROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform1
+1. Project Insight
+1.1 Project Overview
+VG Buildmart aims to develop a digital marketplace for construction materials,
+primarily cement, stone, and TMT steel rods. The platform will connect customers,
+contractors, builders, manufacturers, bulk suppliers, and transportation providers
+through a centralized ordering and fulfillment system.
+The platform will enable customers to purchase construction materials,
+manufacturers to sell materials in bulk, and VG Buildmart to manage customer
+acquisition, supplier relationships, pricing, orders, payments, and delivery
+coordination.
+The solution will include a customer-facing marketplace, manufacturer portal,
+administrative dashboard, and transport/driver management interface.
+1.2 Business ObjectivesPROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform2
+Digital Marketplace: Establish a centralized platform for buying and selling
+construction materials.
+Bulk Procurement: Enable manufacturers and suppliers to offer products in
+bulk quantities at negotiated prices.
+Customer Acquisition: Capture leads from contractors, builders, construction
+companies, and individual customers.
+Order Management: Digitize the complete order lifecycle, from product
+selection to delivery confirmation.
+Logistics Management: Connect orders with transporters and drivers for
+efficient material delivery.
+Business Growth: Build a scalable platform that can expand across cities,
+districts, suppliers, and construction-material categories.
+Operational Transparency: Provide visibility into product prices, order status,
+supplier availability, transportation costs, and delivery progress.
+1.3 User Roles
+User Role Primary Responsibilities
+Customer / Buyer Browse products, request quotations, purchase materials, make
+payments, and track orders.
+Manufacturer /
+Supplier
+List products, manage inventory, offer bulk pricing, accept orders,
+and manage fulfillment.
+Platform Admin Manage customers, suppliers, products, pricing, leads, orders,
+payments, and platform settings.
+Sales / Acquisition
+Executive
+Generate leads, onboard customers and suppliers, follow up with
+prospects, and convert inquiries into orders.
+Transporter Register transportation services, manage vehicles, accept delivery
+assignments, and coordinate shipments.
+Driver View assigned deliveries, update shipment status, and submit
+proof of delivery.
+Finance / Operations
+Team
+Review payments, reconcile transactions, monitor commissions,
+and coordinate order fulfillment.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform3
+Note: Role permissions will be configurable according to VG Buildmart's approved
+operational structure.
+2. Detailed Statement of Work (SOW)
+Module 1: Customer Marketplace – Buy Construction
+Materials
+Objective
+Provide customers with a convenient digital platform to discover, compare,
+purchase, and receive construction materials.
+1.1 Customer Registration and Profile Management
+Mobile number-based registration and login using OTP, subject to SMS
+gateway integration.
+Customer profile creation with name, mobile number, email, and business
+details.
+Customer types: Individual, Contractor, Builder, Dealer, and Construction
+Company.
+Multiple delivery addresses and construction-site locations.
+Saved billing and shipping details.
+Customer order history and transaction records.
+Profile management and password/account security where applicable.
+1.2 Product Catalog
+The marketplace will initially support the following categories:
+Category Product Examples Important Product Attributes
+Cement OPC, PPC, PSC and other approved
+cement variants
+Brand, grade, bag weight,
+price per bag, manufacturerPROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform4
+Category Product Examples Important Product Attributes
+Stone Aggregate, crushed stone, stone chips,
+and other approved stone products
+Stone type, size, grade, unit,
+price per unit
+TMT Steel Rods Construction-grade reinforcement bars Brand, grade, diameter,
+weight, price per kg or tonne
+Future
+Categories
+Sand, bricks, blocks, and other
+construction materials
+Configurable product-specific
+attributes
+The final product categories and specifications will be confirmed during
+requirement analysis.
+Features:
+Browse products by category, brand, manufacturer, and location.
+Search products by name, specifications, or SKU.
+Filter by price, availability, grade, size, and supplier.
+View product images, specifications, and descriptions.
+Display pricing units such as bag, piece, kilogram, tonne, or cubic foot, where
+applicable.
+View minimum order quantities and bulk purchase conditions.
+Display estimated delivery charges and delivery availability where configured.
+Show product availability based on supplier inventory or confirmed stock
+information.
+1.3 Product Pricing and Bulk Purchase
+Display product prices according to the applicable sales unit.
+Support minimum order quantities and bulk-order thresholds.
+Enable quantity-based pricing slabs.
+Support supplier-specific prices and approved customer-specific pricing.
+Allow customers to request quotations for large orders.
+Enable negotiation and revised quotations through the defined quotation
+workflow.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform5
+Calculate order totals based on product quantity, unit price, taxes, discounts,
+and applicable delivery charges.
+Display quotation validity and payment terms where applicable.
+Example:
+A contractor wants to purchase 500 cement bags and 10 tonnes of TMT steel
+rods. The customer can select the required products, specify quantities, request a
+bulk quotation if needed, and proceed after the price and delivery terms are
+confirmed.
+1.4 Shopping Cart and Checkout
+Add multiple products to the shopping cart.
+Update quantities and remove items.
+Validate minimum order quantities and product availability.
+Select a delivery address or construction-site location.
+Display product subtotal, applicable taxes, discounts, and delivery charges.
+Apply approved promotional codes, if enabled.
+Review order details before placing the order.
+Support checkout for available payment methods.
+Generate a unique order number and order confirmation.
+The system will validate supplier availability and applicable pricing before order
+confirmation.
+1.5 Quotation and Order Requests
+Submit requests for bulk material requirements.
+Specify product, quantity, required delivery date, and site location.
+Route quotation requests to the relevant supplier or VG Buildmart admin.
+Enable the authorized party to submit or revise quotations.
+Allow customers to accept or reject quotations.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform6
+Convert accepted quotations into confirmed orders.
+Maintain quotation history and status.
+Notify customers when a quotation is received, revised, or nearing expiry.
+1.6 Customer Order Management
+Customers will be able to view and manage their orders through the platform.
+Order lifecycle:
+Order Placed → Supplier Confirmation → Payment Confirmation / Approved Credit
+Terms → Material Preparation → Transport Assignment → Dispatched → In Transit
+→ Delivered → Completed
+Additional capabilities:
+View current and past orders.
+Track order status and estimated delivery information.
+Download order confirmations and available invoices.
+Cancel orders according to approved cancellation rules.
+Request support for delayed, damaged, or incorrect deliveries.
+View payment status, refunds, and outstanding amounts where applicable.
+Submit delivery feedback and supplier ratings.
+1.7 Payments and Invoices
+Integration with a supported payment gateway, subject to provider approval.
+Support applicable payment methods provided by the selected gateway.
+Display payment status and transaction references.
+Generate order summaries and invoices based on approved business rules.
+Support payment reconciliation records for administrators.
+Handle payment failure and transaction status updates.
+Maintain refund and cancellation records.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform7
+Scope clarification: GST invoicing, e-invoicing, credit management, split
+settlements, and supplier payouts will require confirmation of VG Buildmart's
+business and tax requirements. Advanced accounting or ERP integration is not
+included unless separately agreed.
+Module 2: Manufacturer and Supplier Portal – Bulk
+Selling
+Objective
+Enable manufacturers, distributors, and authorized suppliers to manage product
+listings, bulk pricing, customer orders, and fulfillment.
+2.1 Supplier Registration and Onboarding
+Supplier registration and login.
+Business profile creation.
+Company name, address, contact information, and business type.
+GSTIN and other applicable business details.
+Upload relevant business and verification documents.
+Add manufacturing locations, warehouses, and serviceable areas.
+Submit profiles for admin approval.
+View onboarding status and verification feedback.
+Enable or suspend supplier access through admin controls.
+Supplier verification will be performed by VG Buildmart's authorized team.
+2.2 Product and Inventory Management
+Add new products and edit existing listings.
+Assign products to predefined categories.
+Configure brand, grade, specifications, and applicable units.
+Upload product images and supporting documentation.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform8
+Set base price, selling price, and minimum order quantity.
+Configure bulk pricing slabs.
+Update available stock or supply capacity.
+Mark products as available, unavailable, or temporarily out of stock.
+Maintain product status and listing approval.
+View product-wise order history.
+Inventory approach: The initial system will support supplier-managed stock or
+available-supply quantities. Real-time synchronization with supplier ERP,
+accounting, or warehouse systems will require separate integration.
+2.3 Bulk Pricing and Quotations
+Set minimum order quantities.
+Configure quantity-based pricing.
+Define negotiated pricing for large orders.
+Receive quotation requests from customers or the platform admin.
+Submit quotations with product quantities, prices, taxes, and delivery
+conditions.
+Revise quotations before customer acceptance.
+Define quotation validity and payment terms.
+View accepted, rejected, and pending quotations.
+Convert accepted quotations into orders.
+Example:
+A manufacturer offers TMT steel rods at a standard rate, with different prices for
+orders below 5 tonnes, between 5 and 20 tonnes, and above 20 tonnes. The
+system can apply the configured price slabs, subject to the supplier's commercial
+terms.
+2.4 Supplier Order Management
+Receive new order notifications.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform9
+Review product specifications and order quantities.
+Confirm or reject orders with a reason.
+Confirm expected dispatch dates.
+Update material preparation status.
+Generate packing or dispatch information.
+Request transporter assignment or use an admin-assigned transporter.
+Update dispatch status and shipment details.
+Upload delivery-related documents where applicable.
+Review completed orders and transaction records.
+2.5 Supplier Performance Dashboard
+The supplier dashboard will display:
+Total orders received.
+Pending order confirmations.
+Orders being prepared.
+Dispatched and completed orders.
+Total order value.
+Pending quotation requests.
+Product-wise sales summaries.
+Available inventory or supply quantities.
+Customer ratings and feedback, where enabled.
+Supplier performance metrics will be based on recorded platform transactions and
+configured reporting rules.
+Module 3: Admin Dashboard – Customer Acquisition
+and Business Operations
+ObjectivePROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform10
+Provide VG Buildmart with centralized control over customer acquisition, supplier
+onboarding, marketplace operations, pricing, order fulfillment, and business
+reporting.
+3.1 Admin Dashboard
+The dashboard will provide an overview of:
+Total registered customers.
+Total active and pending suppliers.
+Total listed products.
+Total orders and order value.
+Pending quotations and approvals.
+Orders awaiting supplier confirmation.
+Payments received and pending.
+Active deliveries and delayed shipments.
+New leads and follow-up activities.
+Sales performance by executive, city, supplier, and product category.
+Dashboard metrics will be based on data available within the platform.
+3.2 Customer Acquisition and Lead Management
+This module will support VG Buildmart's sales team in acquiring new buyers,
+contractors, builders, dealers, and construction companies.
+Lead capture:
+Add leads manually.
+Capture leads from marketplace inquiries and quotation requests.
+Record customer name, mobile number, company, location, and business
+type.
+Record construction-material requirements.
+Record estimated purchase quantity and potential order value.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform11
+Assign leads to sales executives.
+Record lead source, such as website inquiry, referral, campaign, or field sales.
+Lead pipeline:
+New Lead → Contacted → Requirement Identified → Quotation Shared →
+Negotiation → Converted to Customer → Order Generated
+Additional statuses such as Lost, On Hold, and Follow-up Required can be
+configured.
+Sales follow-up:
+Schedule follow-up dates.
+Add call notes and meeting records.
+Record expected order value and conversion probability where required.
+Track the next action and assigned executive.
+View overdue follow-ups.
+Maintain customer interaction history.
+Convert qualified leads into customer accounts.
+Associate converted customers with resulting orders.
+Sales performance reporting:
+Leads generated by executive.
+Leads by source and location.
+Contacted leads and qualified opportunities.
+Quotations shared.
+Lead-to-customer conversion rate.
+Converted order value.
+Follow-up completion rate.
+Automated lead capture from external advertising platforms, telephony systems,
+or third-party CRMs will require separate integrations.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform12
+3.3 Customer Management
+View and search all registered customers.
+Access customer profiles and contact details.
+Categorize customers by type and location.
+View customer order and quotation history.
+Assign account owners or sales executives.
+Record business notes and follow-up activities.
+Manage account status.
+Flag duplicate records for review.
+Maintain customer-specific pricing or approved commercial terms, if enabled.
+3.4 Supplier Management
+Review supplier applications and documents.
+Approve, reject, or request additional information.
+Activate or suspend supplier accounts.
+Assign supplier categories and operating locations.
+View product listings and available supply quantities.
+Monitor supplier order acceptance and fulfillment.
+Review supplier performance and customer feedback.
+Maintain supplier commission or commercial arrangements.
+View supplier-wise sales and transaction summaries.
+3.5 Product and Catalog Management
+Create and manage material categories.
+Approve or reject product listings.
+Maintain product specifications and units of measurement.
+Manage product brands and grades.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform13
+Configure featured products and promotional listings.
+Set or approve platform-level pricing rules.
+Configure location-based product availability.
+Maintain minimum order quantity rules.
+Enable or disable products.
+Manage banners and basic marketplace content.
+3.6 Pricing, Commission, and Revenue Management
+The platform will support configurable commercial rules, subject to the approved
+business model.
+Configure platform commission by product, category, supplier, or order.
+Maintain supplier selling prices.
+Apply approved customer-specific pricing.
+Configure bulk pricing rules.
+Record discounts and promotional adjustments.
+Calculate platform commission on eligible orders.
+Display order-wise gross value and applicable platform earnings.
+Track delivery charges and other separately recorded fees.
+Generate sales and commission reports.
+Important: The business model must be finalized before development. VG
+Buildmart may operate as a commission-based marketplace, a buy-and-resell
+business, or a lead-generation platform. Each model has different requirements
+for invoicing, payment collection, supplier settlements, and revenue reporting.
+3.7 Order Management
+View all customer orders.
+Filter by order status, date, location, supplier, and category.
+Review and approve orders where required.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform14
+Coordinate supplier confirmation.
+Manage quotation-to-order conversion.
+Update order status with appropriate permissions.
+Assign or change transporters.
+Monitor payment and fulfillment status.
+Manage cancellations, returns, and complaints.
+Record delivery discrepancies.
+View order-level financial summaries.
+Maintain an audit trail of important administrative actions.
+3.8 Payment and Finance Monitoring
+View payment transactions and status.
+Identify failed, pending, and successful payments.
+Record offline payments where permitted.
+Track payment references and reconciliation details.
+View supplier payable records.
+Monitor platform commissions.
+Record refund requests and their processing status.
+Generate payment and order-value reports.
+This module will initially provide operational payment records and reporting. Full
+accounting, automated settlement, and ERP functionality are excluded unless
+separately approved.
+3.9 Reports and Analytics
+The admin will have access to:
+Daily, weekly, and monthly sales reports.
+Category-wise sales.
+Product-wise sales.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform15
+Supplier-wise order performance.
+Customer acquisition and conversion reports.
+Lead-source performance.
+Sales executive performance.
+Order cancellation reports.
+Pending payment reports.
+Delivery performance reports.
+Platform commission reports.
+Exportable reports in supported formats such as CSV or Excel.
+3.10 Roles and Permissions
+Super Admin.
+Operations Manager.
+Sales Manager.
+Sales Executive.
+Finance Executive.
+Supplier Management Executive.
+Logistics Coordinator.
+Permissions will determine which records, actions, and reports each role can
+access.
+Module 4: Transporter and Driver Management
+Objective
+Digitize the allocation and tracking of vehicles, drivers, and construction-material
+deliveries.
+4.1 Transporter RegistrationPROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform16
+Register transport companies and independent transporters.
+Maintain business and contact information.
+Record operating areas.
+Upload applicable vehicle and business documents.
+Submit transporter profiles for admin approval.
+Manage transporter account status.
+Maintain agreed transportation rates or rate cards.
+4.2 Vehicle Management
+Add and manage vehicles.
+Record vehicle registration numbers.
+Maintain vehicle type and load capacity.
+Record applicable vehicle documents and expiry dates.
+Associate vehicles with transporters.
+Set vehicle availability status.
+Assign available vehicles to delivery orders.
+Vehicle availability and load-capacity information will be maintained according to
+the operational data provided.
+4.3 Driver Management
+Register drivers and maintain their contact details.
+Associate drivers with transporters and vehicles.
+Record applicable driving licence details.
+Manage driver availability.
+Assign drivers to delivery jobs.
+View current and completed delivery assignments.
+Maintain delivery history.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform17
+4.4 Delivery Assignment
+The admin or logistics coordinator will be able to:
+View orders requiring transportation.
+Review pickup and delivery locations.
+View material quantity and shipment requirements.
+Select a transporter and suitable vehicle.
+Assign a driver.
+Record freight charges and agreed delivery terms.
+Specify the expected pickup and delivery dates.
+Share shipment details with the assigned driver.
+Reassign a transporter or driver when necessary.
+4.5 Driver Interface
+A mobile-responsive driver interface will allow drivers to:
+Log in securely.
+View assigned deliveries.
+Review pickup and delivery addresses.
+View order and material details.
+Contact the relevant operations team using available contact details.
+Accept or acknowledge assignments, if enabled.
+Update pickup and dispatch status.
+Mark shipments as in transit.
+Update delivery progress.
+Report delivery delays or problems.
+Upload delivery photographs or supporting documents.
+Capture proof of delivery.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform18
+Record recipient confirmation and delivery remarks.
+Mark deliveries as completed, subject to applicable workflow rules.
+4.6 Delivery Tracking
+The initial system will support status-based delivery tracking.
+Delivery workflow:
+Order Ready → Transport Assigned → Driver Assigned → Material Picked Up →
+Dispatched → In Transit → Delivered → Delivery Confirmed
+The platform will record timestamps and status updates for shipment visibility.
+Live GPS tracking: Real-time location tracking will require a suitable GPS/map
+service and explicit implementation of location collection. It is not included in the
+base scope unless approved separately.
+4.7 Freight and Logistics Management
+Maintain transporter-specific rate cards.
+Record agreed freight charges per shipment.
+Support fixed, distance-based, or quantity-based rate rules where finalized.
+Record loading or unloading charges where applicable.
+Display transportation charges against orders.
+Track transporter payment status.
+Generate delivery and freight reports.
+Record failed deliveries and additional trip charges.
+Automated distance-based pricing will depend on the selected map service and
+the agreed freight calculation rules.
+4.8 Proof of Delivery
+Capture delivery completion date and time.
+Record the receiving person's name where applicable.
+Upload delivery photographs or signed delivery documents.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform19
+Record quantity discrepancies or damage remarks.
+Allow the operations team to review delivery evidence.
+Update the order to Delivered or Completed according to the approved
+workflow.
+3. End-to-End Business Workflow
+3.1 Customer Purchase Workflow
+Customer Registration → Browse Construction Materials → Select Products and
+Quantities → Check Price and Availability → Request Quotation or Place Order →
+Confirm Commercial Terms → Make Payment or Use Approved Credit Terms →
+Supplier Confirms Order → Material Preparation → Transport Assignment →
+Dispatch → Delivery → Customer Confirmation → Order Completion
+3.2 Manufacturer Bulk-Selling Workflow
+Supplier Registration → Admin Verification → Product Listing → Inventory/Supply
+Update → Bulk Pricing Configuration → Customer Inquiry/Order → Quotation
+Submission if Required → Order Confirmation → Material Preparation → Dispatch
+Coordination → Delivery Confirmation → Order and Sales Reporting
+3.3 Admin Customer Acquisition Workflow
+Lead Generation → Lead Registration → Sales Executive Assignment → Customer
+Contact → Requirement Collection → Product/Supplier Identification → Quotation
+Preparation → Negotiation → Customer Conversion → Order Placement → Follow-
+up → Sales Performance Reporting
+3.4 Transport and Driver Workflow
+Order Ready for Dispatch → Delivery Details Recorded → Transporter Selected →
+Vehicle and Driver Assigned → Pickup Confirmation → Dispatch Update → In-
+Transit Status → Delivery Confirmation → Proof of Delivery Upload → Freight
+Record Update → Order ClosurePROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform20
+3.5 High-Level System Architecture
+Component Purpose
+Customer
+Marketplace
+Product discovery, quotations, checkout, payments, and order
+tracking
+Supplier Portal Product listings, inventory, bulk pricing, and order fulfillment
+Admin Dashboard Centralized control over customers, suppliers, products, orders,
+and finance
+Sales and CRM
+Module
+Lead acquisition, assignments, follow-ups, and conversion
+reporting
+Transport
+Management Vehicle allocation, driver assignments, freight, and delivery status
+Driver Interface Mobile-friendly shipment management and proof of delivery
+Backend API Business rules, authentication, order processing, and integrations
+Database Customer, supplier, product, inventory, quotation, order, and
+logistics records
+Notification Service OTPs, order updates, quotation notifications, and delivery alerts
+Reporting Layer Operational dashboards, sales analytics, and downloadable reports
+4. Proposed Technology Stack
+The final technology stack will be confirmed during technical discovery.
+Layer Proposed Technology
+Customer Marketplace React.js / Next.js
+Admin and Supplier
+Portals React.js / Next.js
+Driver Interface Responsive web application / Progressive Web App (PWA)
+Backend Node.js with Express.js or NestJS
+Database PostgreSQL
+API Architecture REST APIs
+Authentication Secure session or token-based authentication with role-based
+access controlPROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform21
+Layer Proposed Technology
+Cloud Hosting AWS or another mutually approved cloud provider
+File Storage Amazon S3 or equivalent object storage
+Payment Gateway Razorpay, Cashfree, or another approved provider
+SMS/OTP An approved SMS gateway
+Email Notifications An approved transactional email provider
+Maps and Location Google Maps Platform or another suitable mapping provider
+Version Control GitHub
+Testing Unit, integration, functional, and user acceptance testing
+Monitoring Cloud and application monitoring services appropriate to the
+deployment
+Technology note: All technology choices are provisional. Licensing, service
+availability, data residency, transaction charges, and ongoing infrastructure costs
+will be validated before implementation.
+5. Resource Allocation
+The following is a proposed team structure for planning purposes.
+Resource Responsibilities Estimated Allocation
+Business Analyst /
+Project Manager
+Requirement gathering, process
+mapping, project planning, and
+coordination
+Part-time
+UI/UX Designer User journeys, wireframes, and
+interface design
+Part-time during
+design
+Frontend Developer Customer, supplier, admin, and driver
+interfaces 1–2 resources
+Backend Developer APIs, business logic, pricing, orders,
+payments, and permissions 1–2 resources
+QA Engineer Test planning, functional testing,
+regression testing, and UAT support
+Part-time to full-time
+during testing
+DevOps Engineer Deployment, hosting configuration,
+security setup, and monitoring Part-timePROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform22
+Resource Responsibilities Estimated Allocation
+Technical Lead Architecture, code reviews, integration,
+and technical oversight Part-time
+The actual resource allocation may change based on the final scope, delivery
+timeline, and any additional mobile application requirements.
+6. Project Milestones and Budget Allocation
+The project is proposed in five milestones.
+Milestone Scope Estimated
+Duration
+Budget
+Allocation
+1. Discovery and
+UI/UX
+Requirement analysis, business
+workflows, wireframes, UI
+design, and architecture
+2–3 weeks 15%
+2. Marketplace and
+Supplier Portal
+Customer registration, catalog,
+product listings, bulk pricing,
+quotations, cart, and checkout
+4–5 weeks 25%
+3. Admin and
+Customer
+Acquisition
+Admin dashboard, lead
+management, supplier
+approvals, order management,
+and reporting
+3–4 weeks 25%
+4. Transport and
+Driver Management
+Transporter, vehicle, driver,
+delivery assignment, shipment
+updates, and proof of delivery
+2–3 weeks 20%
+5. Integration,
+Testing and
+Deployment
+Payment and notification
+integration, testing, UAT,
+deployment, and handover
+2–3 weeks 15%
+Total Complete agreed platform
+scope 14–18 weeks 100%
+Budget calculation: The monetary value of each milestone will be calculated
+against the final approved project quotation. The allocation above is indicative and
+may be revised after detailed requirement analysis.
+Milestones may overlap where technically practical. Timelines depend on timely
+approvals, access to third-party services, and client-provided information.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform23
+7. Third-Party Expenses
+Third-party costs are separate from the one-time development fee unless
+explicitly included in the final quotation.
+Service Purpose Expected Cost Treatment
+Domain and DNS Marketplace domain
+configuration
+Based on domain provider and
+selected domain
+Cloud Hosting Backend, database, and
+application hosting
+Based on infrastructure, traffic,
+storage, and backups
+Object Storage Product images and delivery
+documents Based on storage and data transfer
+Payment Gateway Online payment processing Provider-specific transaction fees
+SMS/OTP Gateway Login verification and
+notifications
+Based on message volume and
+provider pricing
+Email Service Transactional email notifications Based on email volume and
+selected provider
+Maps API Maps, address assistance, or
+distance calculation
+Based on selected features and
+API usage
+SSL/TLS Secure website communication May be available through the
+hosting provider
+Monitoring and
+Backup
+Application monitoring, logs,
+and backups
+Based on selected infrastructure
+and retention requirements
+Additional
+Integrations
+External CRM, ERP, WhatsApp,
+or accounting services
+Subject to provider charges and
+integration scope
+All recurring charges and provider fees will be finalized during implementation
+planning. Third-party pricing, taxes, usage limits, and service terms may change
+8. Project Deliverables
+The following deliverables are included in the proposed scope, subject to the final
+approved requirements.
+1. Requirement specification and approved business workflows.
+2. UI/UX designs for the customer, supplier, admin, and driver interfaces.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform24
+3. Responsive customer-facing construction-material marketplace.
+4. Manufacturer and supplier management portal.
+5. Product catalog and bulk-pricing functionality.
+6. Quotation, cart, checkout, and order-management workflows.
+7. Admin dashboard and role-based access controls.
+8. Customer acquisition and lead-management module.
+9. Supplier onboarding and product approval functionality.
+10. Transporter, vehicle, and driver management module.
+11. Mobile-responsive driver interface.
+12. Delivery-status updates and proof-of-delivery functionality.
+13. Agreed payment, notification, and other third-party integrations.
+14. Operational dashboards and downloadable reports.
+15. Tested application deployed to the agreed production environment.
+16. Source code and technical handover documentation, according to the final
+commercial agreement.
+17. Basic administrator training and deployment handover.
+18. Warranty support for defects identified within the agreed warranty period.
+9. Assumptions and Exclusions
+Assumptions
+VG Buildmart will provide business rules, product specifications, supplier
+details, pricing structures, and approval workflows.
+Product availability and stock accuracy will depend on supplier updates unless
+external inventory synchronization is separately implemented.
+Payment gateway, SMS, email, hosting, and mapping services will be subject
+to third-party approval and charges.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform25
+The timeline assumes timely feedback, approvals, and access to required
+business information.
+Exclusions
+Native Android and iOS applications are excluded from the initial scope; the
+driver interface will be mobile-responsive.
+Live GPS tracking, advanced route optimization, automated vehicle telematics,
+and external ERP integrations are excluded unless separately approved.
+Advanced accounting, automated supplier settlements, e-invoicing, and
+complex tax workflows require separate scope confirmation.
+Product data entry at scale, supplier onboarding campaigns, paid marketing,
+and ongoing operational staffing are excluded unless contracted separately.
+10. Security, Testing and Quality Assurance
+The development process will include:
+Role-based access control for customer, supplier, admin, and logistics users.
+Secure authentication and appropriate session management.
+Server-side validation of product quantities, pricing, and order data.
+Protection of sensitive application data through appropriate security controls.
+Secure handling of payment gateway responses and transaction references.
+Validation of permissions for sensitive administrative actions.
+Functional testing of all agreed workflows.
+Integration testing for payment and notification services.
+Regression testing before production deployment.
+User acceptance testing with designated VG Buildmart representatives.
+Resolution of confirmed defects within the agreed scope before final
+acceptance.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform26
+Security measures will be implemented according to the agreed architecture and
+deployment environment. Any independent security audit or formal certification
+will require separate agreement.
+11. Acceptance Criteria
+The platform will be considered ready for acceptance when the following agreed
+functionality has been demonstrated:
+1. Customers can register, browse materials, request quotations, and place
+orders according to the configured business rules.
+2. Suppliers can manage product listings, bulk prices, supply quantities, and
+order fulfillment.
+3. Admin users can manage customers, suppliers, leads, orders, and applicable
+commercial settings.
+4. Sales executives can record leads, schedule follow-ups, and track
+conversions.
+5. Transport coordinators can assign vehicles and drivers to eligible orders.
+6. Drivers can update delivery statuses and submit proof of delivery.
+7. Agreed payment and notification integrations work in the configured test and
+production environments.
+8. Reports and dashboards display the agreed operational data.
+9. Critical defects identified during agreed acceptance testing are resolved or
+addressed through a mutually approved resolution plan.
+Final acceptance procedures, review periods, and defect classifications will be
+documented in the commercial agreement.
+12. Post-Launch Support and Maintenance
+The proposed support arrangement will be finalized in the commercial quotation.
+It may cover:
+Resolution of defects attributable to the delivered scope.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform27
+Basic application monitoring and troubleshooting.
+Support for deployment-related issues.
+Assistance with production configuration.
+Guidance for administrative users.
+Optional ongoing maintenance and enhancements under a separate
+agreement.
+New modules, changes to approved business workflows, additional integrations,
+and enhancements requested after scope approval will be assessed and quoted
+separately.
+13. Future Enhancement Opportunities
+The platform can be designed to support future expansion, including:
+Native Android and iOS customer applications.
+Real-time GPS tracking and automated delivery updates.
+AI-assisted material recommendations and demand forecasting.
+Supplier ERP and inventory synchronization.
+Advanced construction project procurement management.
+Credit limits and customer account management.
+Recurring orders for contractors and construction companies.
+Dealer and distributor networks.
+Automated freight estimation and route optimization.
+Loyalty programs and referral management.
+WhatsApp notifications and conversational ordering.
+Multi-city operations and regional pricing.
+Advanced business intelligence and sales forecasting.
+These enhancements are not included in the initial development scope unless
+specifically added to the approved quotation.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform28
+14. Conclusion
+The proposed VG Buildmart platform will establish a centralized digital
+marketplace for construction materials, enabling customers to purchase products,
+manufacturers to manage bulk sales, VG Buildmart to acquire and convert
+customers, and transporters to fulfill deliveries through a structured digital
+workflow.
+By combining marketplace operations, supplier management, customer
+acquisition, and logistics coordination, the platform will provide a foundation for
+scalable construction-material commerce.
+Project: VG Buildmart – Construction Material Marketplace
+Commercial Status: Budget and final scope to be mutually approved before
+project commencement.PROJECT PROPOSAL: VG Buildmart – Construction Material Marketplace Platform29
